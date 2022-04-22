@@ -1,6 +1,6 @@
 :root{
-    --color-primary: #e5e5e5;
-    --color-secundary: #edf2f4;
+    --color-primary: #f5ebe0;
+    --color-secundary: #fffcf2;
 }
 
 body{
@@ -49,14 +49,52 @@ body{
     max-width: 70%;
 }
 
-.form{
+.formDiv{
+    display: flex;
+    flex-direction: column;
     height: 30%;
     width: 100%;
     background-color: var(--color-secundary);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%; 
+    
+}
+
+#divisor{
+    display: flex;
+    font-size: small;
+    font-weight: bold;
+    flex-wrap: wrap;
+   
+    
+}
+.formLeft{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 15px;
+}
+
+.formRight{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 5%; 
+    gap: 15px;
 }
 
 .btn{
     height: 35%;
     width: 100%;
     background-color: var(--color-primary);
+    padding: 5%; 
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
 }
