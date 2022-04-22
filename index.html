@@ -36,7 +36,7 @@
                         <div class="formLeft">
                             <div class="column">
                                 <label for="firstName">FIRST NAME</label>
-                                <input type="text" id="firstName" placeholder="David">
+                                <input type="text" id="firstName" placeholder="David" pattern="[a-z]{1,}">
                             </div>
 
                             <div class="column">
@@ -55,30 +55,31 @@
                             <div class="column">
                                 <label for="secondName">SECOND NAME</label>
                                 <input type="text" id="secondName" placeholder="Smith">
-    
+
                             </div>
-                            
+
                             <div class="column">
                                 <label for="number">PHONE NUMBER</label>
                                 <input type="tel" id="number" placeholder="316 489 5110">
-    
+
                             </div>
 
                             <div class="column">
                                 <label for="passwordConfirm">CONFIRM PASSWORD</label>
                                 <input type="password" id="passwordConfirm" placeholder="">
                             </div>
-                            
                         </div>
                     </form>
                 </div>
             </div>
-
             <div class="btn">
-                
+                <form>
+                    <button type="submit" class="btnCreate">Create Account</button>
+
+                </form>
+                <p style="font-weight: 600; padding: 20px 10px;">Already have an account? <a href="" style="color: black; font-weight: bold;">Log in</a></p>
             </div>
         </div>
     </div>
 </body>
-
 </html>

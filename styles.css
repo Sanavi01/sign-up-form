@@ -1,6 +1,6 @@
 :root{
-    --color-primary: #f5ebe0;
-    --color-secundary: #fffcf2;
+    --color-primary: #D2CCC7;
+    --color-secundary: rgb(202, 202, 202);
 }
 
 body{
@@ -16,6 +16,7 @@ body{
 .image-left{
     width: 70%;
     height: 100%;
+    border-right: solid black 1.5px;
 }
 
 .image-left img{
@@ -51,16 +52,19 @@ body{
 
 .formDiv{
     display: flex;
+    position: relative;
     flex-direction: column;
     height: 30%;
     width: 100%;
     background-color: var(--color-secundary);
+    box-shadow: 3px 3px 10px black
 }
 
 .form{
     display: flex;
     flex-direction: column;
     padding-left: 5%; 
+    
     
 }
 
@@ -97,4 +101,20 @@ body{
 .column{
     display: flex;
     flex-direction: column;
+}
+
+.btnCreate{
+    width: 25%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btnCreate:hover{
+    background-color: #F7D13E;
+    color: black;
+    border: solid black 2px;
 }
