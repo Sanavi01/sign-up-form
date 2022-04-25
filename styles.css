@@ -103,7 +103,7 @@ body{
     flex-direction: column;
 }
 
-.btnCreate{
+#btnCreate{
     width: 25%;
     height: 50px;
     border-radius: 15px;
@@ -113,8 +113,16 @@ body{
     font-weight: bold;
 }
 
-.btnCreate:hover{
+#btnCreate:hover{
     background-color: #F7D13E;
     color: black;
     border: solid black 2px;
+}
+
+.correct{
+    border-color: green;
+}
+
+.incorrect{
+    border-color: red;
 }
