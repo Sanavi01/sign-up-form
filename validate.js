@@ -44,3 +44,5 @@ function activateBtn() {
 }
 
 runCheckPassword()
+
+// <img src="images/abstract-futuristic-network-shapes-high-tech-background-connecting-lines-dots-polygonal-linear-texture-world-map-abstract-105773365.jpg" alt="">

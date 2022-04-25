@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Grape+Nuts&family=Playfair+Display&display=swap');
+
 :root{
     --color-primary: #D2CCC7;
     --color-secundary: rgb(202, 202, 202);
@@ -17,12 +19,50 @@ body{
     width: 70%;
     height: 100%;
     border-right: solid black 1.5px;
+    position: relative;
 }
 
 .image-left img{
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+#blackDiv{
+    margin-top: 170px;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 17%;
+    position: absolute;
+}
+
+#logoAndTittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 170px;
+    width: 100%;
+    height: 17%;
+    gap: 16px;
+}
+
+#logo{
+    width: 30%;
+    height: 70%;
+}
+
+#logo img{
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+#tittle{
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 50px;
 }
 
 .container{
