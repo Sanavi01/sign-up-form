@@ -37,11 +37,12 @@
                     </p>
                     <div id="divisor">
                         <form style="display: flex; width: 100%;">
-                        <div class="formLeft">
-                            
+                            <div class="formLeft">
+
                                 <div class="column">
                                     <label for="firstName">FIRST NAME</label>
-                                    <input type="text" id="firstName" placeholder="David" pattern="[A-Za-z]{1,}" title="Should contain only letters" required>
+                                    <input type="text" id="firstName" placeholder="David" pattern="[A-Za-z]{1,}"
+                                        title="Should contain only letters" required>
                                 </div>
 
                                 <div class="column">
@@ -51,40 +52,47 @@
 
                                 <div class="column">
                                     <label for="password">PASSWORD</label>
-                                    <input type="password" id="password" placeholder="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Should contain at least one capital letter and one number. Minimun 8 digits" required>
+                                    <input type="password" id="password" placeholder=""
+                                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                        title="Should contain at least one capital letter and one number. Minimun 8 digits"
+                                        required>
                                 </div>
 
-                        </div>
-                        <div class="formRight">
-                            <div class="column">
-                                <label for="secondName">SECOND NAME</label>
-                                <input type="text" id="secondName" placeholder="Smith" pattern="[A-Za-z]{1,}" title="Should contain only letters" required>
-
                             </div>
+                            <div class="formRight">
+                                <div class="column">
+                                    <label for="secondName">SECOND NAME</label>
+                                    <input type="text" id="secondName" placeholder="Smith" pattern="[A-Za-z]{1,}"
+                                        title="Should contain only letters" required>
 
-                            <div class="column">
-                                <label for="number">PHONE NUMBER</label>
-                                <input type="tel" id="number" placeholder="316 489 5110" pattern="[0-9]{6,15}" required>
+                                </div>
 
+                                <div class="column">
+                                    <label for="number">PHONE NUMBER</label>
+                                    <input type="tel" id="number" placeholder="3164895110" pattern="[0-9]{1,15}"
+                                        required>
+
+                                </div>
+
+                                <div class="column">
+                                    <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                                    <input type="password" id="passwordConfirm" placeholder="" required>
+                                </div>
                             </div>
-
-                            <div class="column">
-                                <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                                <input type="password" id="passwordConfirm" placeholder="" required>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
             </div>
-            <div class="btn">
-                <button id="btnCreate">Create Account</button>
-                <p style="font-weight: 600; padding: 20px 10px;">
-                    Already have an account?
-                    <a href="" style="color: black; font-weight: bold;">
-                        Log in
-                    </a>
-                </p>
+            <div class="btnDiv">
+                <div style="padding: 5%;">
+                    <button id="btnCreate">Create Account</button>
+                    <p style="font-weight: 600; padding: 20px 10px;">
+                        Already have an account?
+                        <a href="" style="color: black; font-weight: bold;">
+                            Log in
+                        </a>
+                    </p>
+                </div>
             </div>
             </form>
         </div>

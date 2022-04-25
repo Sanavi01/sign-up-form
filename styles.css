@@ -91,11 +91,11 @@ body{
     gap: 15px;
 }
 
-.btn{
+.btnDiv{
     height: 35%;
     width: 100%;
     background-color: var(--color-primary);
-    padding: 5%; 
+     
 }
 
 .column{
@@ -111,6 +111,7 @@ body{
     color: white;
     font-size: 15px;
     font-weight: bold;
+    
 }
 
 #btnCreate:hover{
